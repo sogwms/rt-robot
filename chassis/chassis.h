@@ -13,7 +13,7 @@
 #include <kinematics.h>
 #include <wheel.h>
 
-#define CHASSIS_VELOCITY_LINEAR_MAXIMUM         0.1f                                                  // m/s
+#define CHASSIS_VELOCITY_LINEAR_MAXIMUM         1.0f                                                  // m/s
 #define CHASSIS_VELOCITY_ANGULAR_MAXIMUM        5.0f * CHASSIS_VELOCITY_LINEAR_MAXIMUM                // rad/s
 
 typedef struct chassis *chassis_t;
