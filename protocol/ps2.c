@@ -201,8 +201,8 @@ static void ps2_thread_entry(void *param)
 
             rt_int16_t cmd[4] = {
                 table[PS2_ROCKER_LX].standard_cmd,
-                table[PS2_ROCKER_LY].standard_cmd,
                 table[PS2_ROCKER_RX].standard_cmd,
+                table[PS2_ROCKER_LY].standard_cmd,
                 table[PS2_ROCKER_RY].standard_cmd};
 
             for (int i = 0; i < 4; i++)
